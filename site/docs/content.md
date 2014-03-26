@@ -26,5 +26,6 @@ On the Rackspace.com team, we don’t just take the content that a subject matte
 * We don’t over- or under-estimate our readers’ technical expertise.
 * We clearly explain Rackspace’s product portfolio, and show how products and services fit together.
 * We help customers choose custom solutions that meet unique needs.
+* Troy is awesome.
 
 In other words, we’re not just editors—we’re skilled content developers who care deeply about customer experience. Internalize that approach, and remember it as you write.
