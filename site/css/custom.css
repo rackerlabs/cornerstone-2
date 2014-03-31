@@ -1,0 +1,199 @@
+.color-ul {
+	float: left; 
+	list-style: none; 
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.color-ul li {
+	font-weight: 400;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	line-height: 10px;
+}
+
+.color-box {
+	height:80px;
+	width:80px;
+	float:left;
+	border: 1px solid #333;
+}
+
+.color-row {
+	height: 100px;
+}
+
+
+.red1 {
+	background-color:#FF7766;
+}
+
+.red2 {
+	background-color:#DD2233;
+}
+
+.red3 {
+	background-color:#C40022;
+}
+
+.purple1 {
+	background-color:#DD77FF;
+}
+
+.purple2 {
+	background-color:#8F1ABD;
+}
+
+.purple3 {
+	background-color:#440088;
+}
+
+.orange1 {
+	background-color:#FFDD44;
+}
+
+.orange2 {
+	background-color:#FFBB22;
+}
+
+.orange3 {
+	background-color:#E73C01;
+}
+
+.green1 {
+	background-color:#99DD66;
+}
+
+.green2 {
+	background-color:#229933;
+}
+
+.green3 {
+	background-color:#008855;
+}
+
+.blue1 {
+	background-color:#2CD1E1;
+}
+
+.blue2 {
+	background-color:#0DAFCC;
+}
+
+.blue3 {
+	background-color:#225566;
+}
+
+.black1-h1 {
+	background-color:#1C1C1C;
+}
+
+.black2-h3 {
+	background-color:#1C1C1C;
+}
+
+.red-anchor {
+	background-color:#C40022;
+}
+
+.gray1-h2 {
+	background-color:#5D5D5D;
+}
+
+.gray2-p {
+	background-color:#5D5D5D;
+}
+
+.white-footer {
+	background-color:#FFFFFF;
+}
+
+.pattern-background {
+	background-image: url("http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/Screen Shot 2014-03-27 at 2.46.49 PM.png");
+}
+
+.page-background {
+	background-color:#5D5D5D;
+}
+
+.hairline {
+	background-color:#FFFFFF;
+}
+
+.roboto {
+	font-family: 'Roboto Slab', serif;
+}
+
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-preview {
+	font-size: 1.23529em;
+    font-style:normal;
+}
+
+.font-navigation {
+	font-family: 'roboto semibold'
+}
+
+.primary-button {
+	width: 198px;
+	height: 44px;
+
+	background-color: #C40022;
+}
+
+.primary-button p {
+	color: #FFFFFF;
+	font-size: 14pt;
+	text-align: center;
+	padding: 8px;
+}
+
+.primary-button:hover{
+	background-color: #DD2233;
+}
+
+.secondary-button {
+	width: 154px;
+	height: 36px;
+	border: 1px solid #333;
+	background-color: #FFFFFF;
+}
+
+.secondary-button p {
+	color: #C40022;
+	font-size: 14pt;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+}
+
+.secondary-button:hover{
+	border: 2px solid #333;
+}
+
+.dropdown-button {
+	width: 248px;
+	height: 43px;
+	background-color: #444444;
+}
+
+.dropdown-button p {
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+
+.dropdown-button ul {
+	display: none;
+}
+
+.dividing-bar {
+	background-color: #808080;
+	height: 1px;
+	width: 100%;
+}
+
