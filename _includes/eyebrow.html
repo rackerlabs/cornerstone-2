@@ -1,10 +1,10 @@
     <div class="eyebrow">
       <div class="container">
         <div class="col-2of3">
-          <a href="{{ site.baseurl }}/" class="eyebrow-brand">{{ site.name }}</a>
+          <a href="{{ site.github.url }}/" class="eyebrow-brand">{{ site.name }}</a>
           <ul class="eyebrow-nav">
             {% for sec in site.data.nav %}
-            <li><a href="{{ site.baseurl }}/docs/{{ sec.docs | first }}/">{{ sec.title }}</a></li>
+            <li><a href="{{ site.github.url }}/docs/{{ sec.docs | first }}/">{{ sec.title }}</a></li>
             {% endfor %}
           </ul>
         </div>

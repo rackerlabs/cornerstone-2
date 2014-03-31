@@ -28,7 +28,7 @@
           <ul class="tabs-vertical">
             {% for cat in s.docs %}{% assign cl = '' %}
             {% if page.url contains cat %}{% assign cl = 'active' %}{% endif %}
-            <li><a href="{{ site.baseurl }}/docs/{{ cat }}/" class="{{ cl }}">{{ cat | replace: '-', ' ' }}</a></li>
+            <li><a href="{{ site.github.url }}/docs/{{ cat }}/" class="{{ cl }}">{{ cat | replace: '-', ' ' }}</a></li>
             {% endfor %}
           </ul>
         </div>
