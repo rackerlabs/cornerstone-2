@@ -16,7 +16,7 @@
 2. Move to the directory - `cd cornerstone`
 3. Install dependencies using rake - `sudo rake install`
 4. Run rake sass:build task to convert sass files to css - `rake sass:build`
-5. Run rake site:serve task to run the project - `rake site:serve`
+5. Run rake jekyll:serve task to run the project - `rake jekyll:serve`
 
 ## Updating Content
 
