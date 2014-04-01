@@ -8,13 +8,13 @@
 - title: Content
   hero:
     heading: Content Style Guide
-    subtitle: Nullam id dolor id nibh ultricies vehicula ut id elit.
+    subtitle: Guidelines for every rackspace.com writer
   docs:
     - content
-    - grammar
+    - voice-and-tone
     - seo
-    - terms
-    - voice
+    - grammar-and-style
+    - legal
 
 - title: Patterns
   hero:
