@@ -1,4 +1,5 @@
 - title: Brand
+  color: teal
   hero:
     heading: Brand Guidelines
     subtitle: Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -6,6 +7,7 @@
     - brand
 
 - title: Content
+  color: orange
   hero:
     heading: Content Style Guide
     subtitle: Guidelines for every rackspace.com writer
@@ -17,6 +19,7 @@
     - legal
 
 - title: Patterns
+  color: blue
   hero:
     heading: Pattern Library
     subtitle: Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -30,6 +33,7 @@
     - windows
 
 - title: Visual
+  color: green
   hero:
     heading: Visual Style Guide
     subtitle: Nullam id dolor id nibh ultricies vehicula ut id elit.
