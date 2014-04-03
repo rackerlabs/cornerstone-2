@@ -6,6 +6,7 @@
 /* MIXINS.SCSS */
 /* FUNCTIONS.SCSS */
 /* base */
+/* COLORS.SCSS */
 /* BASE.SCSS */
 body {
   font-family: 'Roboto Slab', serif;
@@ -29,9 +30,29 @@ h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.23529em;
   font-weight: 400;
-  color: #0dafcc;
   line-height: 1.1em;
   margin: 0 0 0.25em; }
+
+.red h4, .red h5 {
+  color: #b30011; }
+
+.orange h4, .orange h5 {
+  color: #ee8800; }
+
+.yellow h4, .yellow h5 {
+  color: #eebb00; }
+
+.green h4, .green h5 {
+  color: #55bb33; }
+
+.teal h4, .teal h5 {
+  color: #00bbdd; }
+
+.blue h4, .blue h5 {
+  color: #2288dd; }
+
+.purple h4, .purple h5 {
+  color: #8855dd; }
 
 p {
   font-weight: 300;
@@ -49,7 +70,7 @@ strong {
   font-weight: 400; }
 
 a {
-  color: #c40022;
+  color: #77818b;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -231,8 +252,9 @@ a {
 /* HERO.SCSS */
 .hero {
   text-align: center;
-  background: #8f1abd;
   color: #fff;
+  background: #77818b;
+  background: -webkit-linear-gradient(295deg, #707b83, #7f8792);
   padding: 3.5em 0; }
   .hero .hero-heading {
     margin: 0; }
@@ -242,6 +264,34 @@ a {
     font-weight: 200;
     line-height: 1.4em;
     margin: 0.4em 0; }
+
+.red .hero {
+  background: #c40022;
+  background: -webkit-linear-gradient(295deg, #b5002e, #d30013); }
+
+.orange .hero {
+  background: #ff9911;
+  background: -webkit-linear-gradient(295deg, #ff7d02, #ffb220); }
+
+.yellow .hero {
+  background: #ffcc00;
+  background: -webkit-linear-gradient(295deg, #f0ac00, #ffe30f); }
+
+.green .hero {
+  background: #66cc44;
+  background: -webkit-linear-gradient(295deg, #68c938, #65cf50); }
+
+.teal .hero {
+  background: #00ccee;
+  background: -webkit-linear-gradient(295deg, #00d1df, #00c4fd); }
+
+.blue .hero {
+  background: #3399ee;
+  background: -webkit-linear-gradient(295deg, #25a3ed, #4192ef); }
+
+.purple .hero {
+  background: #9966ee;
+  background: -webkit-linear-gradient(295deg, #8358ec, #ac74f0); }
 
 /* themes */
 /* BUTTONS.SCSS */
@@ -262,10 +312,10 @@ a {
   .btn.btn-secondary {
     color: #c40022;
     padding: 0.5em 1.5em;
-    box-shadow: 0 0 0 1px #1c1c1c inset; }
+    box-shadow: 0 0 0 1px #121212 inset; }
     .btn.btn-secondary:hover {
       text-decoration: none;
-      box-shadow: 0 0 0 2px #1c1c1c inset; }
+      box-shadow: 0 0 0 2px #121212 inset; }
 
 /* TABS.SCSS */
 .tabs-vertical {
