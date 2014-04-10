@@ -1,81 +1,93 @@
 /* CORNERSTONE */
-/* fonts */
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700");
-@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300,400");
-/* mixins and functions */
+/* initalize */
 /* MIXINS.SCSS */
 /* FUNCTIONS.SCSS */
+/* VARIABLES.SCSS */
+/* colors */
+/* typography */
+/* eyebrow */
+/* hero */
+/* buttons */
+/* tabs */
 /* base */
-/* COLORS.SCSS */
 /* BASE.SCSS */
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:300,400");
 body {
-  font-family: 'Roboto Slab', serif;
-  font-size: 17px;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
   margin: 0; }
 
-h1 {
-  font-size: 3.23529em;
-  font-weight: 300;
-  letter-spacing: -0.0333em;
-  line-height: 1.1em; }
-
-h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.64706em;
-  font-weight: 400;
-  line-height: 1.15em;
-  margin: 0 0 0.25em; }
-
-h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.23529em;
-  font-weight: 400;
-  line-height: 1.1em;
-  margin: 0 0 0.25em; }
-
-.red h4, .red h5 {
-  color: #b30011; }
-
-.orange h4, .orange h5 {
-  color: #ee8800; }
-
-.yellow h4, .yellow h5 {
-  color: #eebb00; }
-
-.green h4, .green h5 {
-  color: #55bb33; }
-
-.teal h4, .teal h5 {
-  color: #00bbdd; }
-
-.blue h4, .blue h5 {
-  color: #2288dd; }
-
-.purple h4, .purple h5 {
-  color: #8855dd; }
-
+/* TYPE.SCSS */
 p {
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.75em;
+  letter-spacing: 0; }
+
+ul, ol {
+  margin: 0 0 2em; }
+
+li {
   font-weight: 300;
   line-height: 1.5em;
-  margin: 0 0 2em; }
+  margin-bottom: 0.5em; }
 
-ul {
-  margin: 0 0 2em; }
-  ul li {
-    font-weight: 300;
-    line-height: 1.5em;
-    margin-bottom: 0.5em; }
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: -0.03em; }
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.15em;
+  letter-spacing: -0.03em; }
+
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: -0.022em; }
+
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.05em;
+  letter-spacing: -0.01em; }
+
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
+
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
 
 strong {
   font-weight: 400; }
 
 a {
-  color: #77818b;
+  color: #c40022;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    color: #bd0726; }
 
-/* grid */
+/* structure */
 /* GRID.SCSS */
 .container {
   width: 960px;
@@ -92,20 +104,20 @@ a {
   margin-right: 0 !important;
   clear: right; }
 
-.col, .col-2, .col-1of2, .col-3, .col-1of3, .col-2of3, .col-4, .col-1of4, .col-2of4, .col-3of4, .col-5, .col-1of5, .col-2of5, .col-3of5, .col-4of5, .col-6, .col-1of6, .col-2of6, .col-3of6, .col-4of6, .col-5of6, .col-7, .col-1of7, .col-2of7, .col-3of7, .col-4of7, .col-5of7, .col-6of7, .col-8, .col-1of8, .col-2of8, .col-3of8, .col-4of8, .col-5of8, .col-6of8, .col-7of8 {
+.col-1of2, .col-1of3, .col-2of3, .col-1of4, .col-2of4, .col-3of4, .col-1of5, .col-2of5, .col-3of5, .col-4of5, .col-1of6, .col-2of6, .col-3of6, .col-4of6, .col-5of6, .col-1of7, .col-2of7, .col-3of7, .col-4of7, .col-5of7, .col-6of7, .col-1of8, .col-2of8, .col-3of8, .col-4of8, .col-5of8, .col-6of8, .col-7of8 {
   display: block;
   margin-bottom: 0px;
   float: left;
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
 
-.col-2, .col-1of2 {
+.col-1of2 {
   margin-right: 4%; }
 
 .col-1of2 {
   width: 48%; }
 
-.col-3, .col-1of3, .col-2of3 {
+.col-1of3, .col-2of3 {
   margin-right: 4%; }
 
 .col-1of3 {
@@ -114,7 +126,7 @@ a {
 .col-2of3 {
   width: 65.33333%; }
 
-.col-4, .col-1of4, .col-2of4, .col-3of4 {
+.col-1of4, .col-2of4, .col-3of4 {
   margin-right: 4%; }
 
 .col-1of4 {
@@ -126,7 +138,7 @@ a {
 .col-3of4 {
   width: 74%; }
 
-.col-5, .col-1of5, .col-2of5, .col-3of5, .col-4of5 {
+.col-1of5, .col-2of5, .col-3of5, .col-4of5 {
   margin-right: 4%; }
 
 .col-1of5 {
@@ -141,7 +153,7 @@ a {
 .col-4of5 {
   width: 79.2%; }
 
-.col-6, .col-1of6, .col-2of6, .col-3of6, .col-4of6, .col-5of6 {
+.col-1of6, .col-2of6, .col-3of6, .col-4of6, .col-5of6 {
   margin-right: 2%; }
 
 .col-1of6 {
@@ -159,7 +171,7 @@ a {
 .col-5of6 {
   width: 83%; }
 
-.col-7, .col-1of7, .col-2of7, .col-3of7, .col-4of7, .col-5of7, .col-6of7 {
+.col-1of7, .col-2of7, .col-3of7, .col-4of7, .col-5of7, .col-6of7 {
   margin-right: 1.5%; }
 
 .col-1of7 {
@@ -180,7 +192,7 @@ a {
 .col-6of7 {
   width: 85.5%; }
 
-.col-8, .col-1of8, .col-2of8, .col-3of8, .col-4of8, .col-5of8, .col-6of8, .col-7of8 {
+.col-1of8, .col-2of8, .col-3of8, .col-4of8, .col-5of8, .col-6of8, .col-7of8 {
   margin-right: 1%; }
 
 .col-1of8 {
@@ -211,17 +223,19 @@ a {
 /* modules */
 /* eyebrow */
 .eyebrow {
-  background: #333333;
+  background: #2b2b2b;
   color: #fafafa;
-  padding: 0.5em 0; }
+  padding-top: 12px;
+  padding-bottom: 12px; }
   .eyebrow a {
     color: #fafafa; }
     .eyebrow a.eyebrow-brand {
       float: left;
-      margin-right: 1.5em;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-size: 1.8em;
+      margin-right: 56.25px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 45px;
       font-weight: 700;
+      line-height: 1em;
       letter-spacing: -0.02em; }
       .eyebrow a.eyebrow-brand:hover {
         text-decoration: none; }
@@ -231,16 +245,16 @@ a {
     padding: 0;
     list-style: none; }
     .eyebrow .eyebrow-nav li {
-      font-family: 'Roboto Slab';
+      font-family: "Source Sans Pro", sans-serif;
       float: left;
       line-height: 1em;
-      margin: 0.625em 1.25em 0 0; }
+      font-weight: 400;
+      margin: 15px 30px 0 0; }
       .eyebrow .eyebrow-nav li a {
-        font-size: 0.8em;
+        font-size: 15px;
         text-transform: uppercase; }
         .eyebrow .eyebrow-nav li a.btn {
           margin-top: -0.5em;
-          font-size: 0.7em;
           color: #fff; }
           .eyebrow .eyebrow-nav li a.btn.btn-secondary {
             box-shadow: 0 0 0 1px #aaa inset; }
@@ -252,48 +266,42 @@ a {
 /* HERO.SCSS */
 .hero {
   text-align: center;
-  color: #fff;
-  background: #77818b;
-  background: -webkit-linear-gradient(295deg, #707b83, #7f8792);
+  color: white;
+  background-color: #77818b;
   padding: 3.5em 0; }
   .hero .hero-heading {
     margin: 0; }
   .hero .hero-subtitle {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 200;
     line-height: 1.4em;
     margin: 0.4em 0; }
 
 .red .hero {
-  background: #c40022;
-  background: -webkit-linear-gradient(295deg, #b5002e, #d30013); }
+  background-color: #c40022; }
 
 .orange .hero {
-  background: #ff9911;
-  background: -webkit-linear-gradient(295deg, #ff7d02, #ffb220); }
+  background-color: #ff9911; }
 
 .yellow .hero {
-  background: #ffcc00;
-  background: -webkit-linear-gradient(295deg, #f0ac00, #ffe30f); }
+  background-color: #ffcc00; }
 
 .green .hero {
-  background: #66cc44;
-  background: -webkit-linear-gradient(295deg, #68c938, #65cf50); }
+  background-color: #22cc44; }
 
 .teal .hero {
-  background: #00ccee;
-  background: -webkit-linear-gradient(295deg, #00d1df, #00c4fd); }
+  background-color: #00bbdd; }
 
 .blue .hero {
-  background: #3399ee;
-  background: -webkit-linear-gradient(295deg, #25a3ed, #4192ef); }
+  background-color: #3399ee; }
 
 .purple .hero {
-  background: #9966ee;
-  background: -webkit-linear-gradient(295deg, #8358ec, #ac74f0); }
+  background-color: #8866ff; }
 
-/* themes */
+.gray .hero {
+  background-color: #77818b; }
+
 /* BUTTONS.SCSS */
 .btn {
   font-family: 'Source Sans Pro', sans-serif;
@@ -308,7 +316,7 @@ a {
     background: #c40022; }
     .btn.btn-primary:hover {
       text-decoration: none;
-      background: #d30025; }
+      background: #bd0726; }
   .btn.btn-secondary {
     color: #c40022;
     padding: 0.5em 1.5em;
@@ -319,11 +327,11 @@ a {
 
 /* TABS.SCSS */
 .tabs-vertical {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 3em 0;
   list-style: none;
-  border-right: 1px solid #d3d3d3; }
+  border-right: 1px solid lightgray; }
   .tabs-vertical > li {
     line-height: 1.1em;
     margin: 0; }
@@ -336,7 +344,7 @@ a {
       padding: 0.7em 0;
       margin-left: -50em; }
       .tabs-vertical > li > a:hover {
-        background: #eee;
+        background: #eeeeee;
         text-decoration: none; }
       .tabs-vertical > li > a.active {
         background-color: #5d5d5d;
@@ -364,6 +372,6 @@ a {
           font-weight: 400;
           text-transform: uppercase;
           padding: 0.4em 0 0.4em 1em;
-          color: #222; }
+          color: #1c1c1c; }
           .tabs-vertical > li > ul > li > a.active {
             font-weight: 600; }
