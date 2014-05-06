@@ -3,7 +3,7 @@
 .hero {
   text-align: center;
   color: $hero-text-color;
-  background-color: get-color(gray);
+  background-color: get-color('gray');
   padding: 3.5em 0;
 
   .hero-heading {
@@ -18,10 +18,12 @@
   }
 }
 
-@each $name, $color in $palette {
+@each $name in map-keys($palette) {
+  $c: get-color($name);
   .#{$name} {
     .hero {
-      background-color: get-color($name, root);
+      background-color: $c;
+      background: -webkit-linear-gradient(295deg, darken(adjust-hue($c, -5%), 3%), lighten(adjust-hue($c, 5%), 3%));
     }
   }
 }

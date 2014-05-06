@@ -3,19 +3,19 @@
 /* colors */
 
 $palette: (
-  red:    ( root: #C40022, text: #C40022 ),
-  orange: ( root: #FF9911, text: #FF8800 ),
-  yellow: ( root: #FFCC00, text: #FFBB00 ),
-  green:  ( root: #22CC44, text: #11BB33 ),
-  teal:   ( root: #00BBDD, text: #00AACC ),
-  blue:   ( root: #3399EE, text: #2288DD ),
-  purple: ( root: #8866FF, text: #7755EE ),
-  gray:   ( root: #77818B, text: #66707A )
+  'red':    ( root: #C40022, text: #C40022 ),
+  'orange': ( root: #FF9911, text: #FF8800 ),
+  'yellow': ( root: #FFCC00, text: #FFBB00 ),
+  'green':  ( root: #22CC44, text: #11BB33 ),
+  'teal':   ( root: #00BBDD, text: #00AACC ),
+  'blue':   ( root: #3399EE, text: #2288DD ),
+  'purple': ( root: #8866FF, text: #7755EE ),
+  'gray':   ( root: #77818B, text: #66707A )
 );
 
 $text-color:       #5d5d5d;
 $header-color:     #1c1c1c;
-$link-color:       get-color(red);
+$link-color:       get-color('red');
 $link-hover-color: desaturate($link-color, 7%);
 $rule-color:       #d3d3d3;
 
@@ -50,7 +50,7 @@ $hero-text-color: #fff;
 
 /* buttons */
 
-$btn-primary-color:   get-color(red);
+$btn-primary-color:   get-color('red');
 $btn-secondary-color: #121212;
 
 
