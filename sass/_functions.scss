@@ -1,5 +1,5 @@
 /* FUNCTIONS.SCSS */
 
-@function get-color($color, $tone: 'root') {
-  @return map-get(map-get($palette, $color), $tone);
+@function get-color($name, $tone: 'root') {
+  @return map-get(map-get($palette, $name), $tone);
 }

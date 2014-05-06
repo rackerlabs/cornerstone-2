@@ -279,28 +279,36 @@ a {
     margin: 0.4em 0; }
 
 .red .hero {
-  background-color: #c40022; }
+  background-color: #c40022;
+  background: -webkit-linear-gradient(295deg, #b5002e, #d30013); }
 
 .orange .hero {
-  background-color: #ff9911; }
+  background-color: #ff9911;
+  background: -webkit-linear-gradient(295deg, #ff7d02, #ffb220); }
 
 .yellow .hero {
-  background-color: #ffcc00; }
+  background-color: #ffcc00;
+  background: -webkit-linear-gradient(295deg, #f0ac00, #ffe30f); }
 
 .green .hero {
-  background-color: #22cc44; }
+  background-color: #22cc44;
+  background: -webkit-linear-gradient(295deg, #20bf32, #24d957); }
 
 .teal .hero {
-  background-color: #00bbdd; }
+  background-color: #00bbdd;
+  background: -webkit-linear-gradient(295deg, #00bfce, #00b4ec); }
 
 .blue .hero {
-  background-color: #3399ee; }
+  background-color: #3399ee;
+  background: -webkit-linear-gradient(295deg, #25a3ed, #4192ef); }
 
 .purple .hero {
-  background-color: #8866ff; }
+  background-color: #8866ff;
+  background: -webkit-linear-gradient(295deg, #6e57ff, #9f75ff); }
 
 .gray .hero {
-  background-color: #77818b; }
+  background-color: #77818b;
+  background: -webkit-linear-gradient(295deg, #707b83, #7f8792); }
 
 /* BUTTONS.SCSS */
 .btn {
